@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="TOP_CENTER" spacing="10" style="-fx-padding: 20;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="exercise.NoteController">
+    <!-- Input Fields -->
+    <TextField fx:id="titleField" promptText="Enter note title" text="GUI_Assignment" />
+    <TextArea fx:id="contentArea" prefHeight="100" promptText="Enter note content" text="we have learn to build a graphical user interface from scratch. However, there are some tools that can help us to build a GUI in a faster way. In this submodule we will learn to use the Scene Builder tool to build a GUI. " wrapText="true" />
+    <Button fx:id="addButton" text="Add Note" />
+
+    <!-- Notes Display List -->
+    <ListView fx:id="notesListView" prefHeight="200" />
+</VBox>

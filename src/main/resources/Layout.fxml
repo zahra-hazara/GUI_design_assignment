@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="exercise.NoteController" spacing="10" alignment="TOP_CENTER" style="-fx-padding: 20;">
+    <!-- Input Fields -->
+    <TextField fx:id="titleField" promptText="Enter note title" />
+    <TextArea fx:id="contentArea" promptText="Enter note content" wrapText="true" prefHeight="100" />
+    <Button fx:id="addButton" text="Add Note" />
+
+    <!-- Notes Display List -->
+    <ListView fx:id="notesListView" prefHeight="200" />
+</VBox>
